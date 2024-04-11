@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+      
+    </style>
+</head>
+<body>
+    
+    <button onclick="back()" class="back">BACK TO HOME</button>
+    <form>
+        <div class="reg"><h1>Register</h1></div>
+        <div class="Register">
+        <label>name*</label>
+        <input type="text" placeholder="name" required><br><br>
+        <label>email*</label>
+        <input type="email" placeholder="email" required><br><br>
+        <label>phone*</label>
+        <input type="phone" placeholder="phone number" required><br><br>
+        <label>password*</label>
+        <input type="password" placeholder="password" required><br><br>
+        <label>Re-enter password*</label>
+        <input type="password" placeholder="Re-enter your password" required><br><br><br>
+        <a href="login.html">already have an account</a><br><br>
+        <input type="submit" value="Register" class="btn1">
+
+
+        </div>
+        
+    </form>
+
+    <script>
+        function back(){
+          history.back();
+        }
+      </script>
+</body>
+</html>

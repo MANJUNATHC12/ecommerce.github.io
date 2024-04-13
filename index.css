@@ -102,7 +102,7 @@ font-weight: bold;
    font-weight: bold;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 480px) {
     
     .carousel-inner{
       height: 500px;
